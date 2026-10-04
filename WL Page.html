@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			A webpage about Walt Lomin
+		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<style>
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-image: url('AbandonBed.png');
+			background-repeat: no-repeat; 
+
+			background-position: center;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		.test{
+			background-color: black;
+			opacity: 0.87;
+			color: silver;
+			font-size: 2rem;
+			font-family: Arial, Helvetica, sans-serif;
+			border-radius: 15px;        /* Curves the corners of the box */
+			padding: 20px;              /* Adds space between the text and the border */
+			border: 2px solid #ffffff;  /* Optional: Adds a white border line */
+			max-width: 1030px;           /* Optional: Limits the width of the box */
+		}
+		.hidden{
+			color: transparent;
+			background: transparent;
+			display: inline;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			font-size: 0.4rem;
+		}
+		.hidden2{
+			color: transparent;
+			background: transparent;
+			display: inline;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			font-size: 2rem;
+		}
+		
+
+	</style>
+	
+	<body>
+		<p class=test>
+			Mr. Lomin is a software developer writer from New England. 
+			<br>He gets out very little during the day and sleeps less than that at night. His hobbies include revising rejected articles, starting projects he'll never finish, and using a broken phone to call nobody. He occasionally writes in the third person, as though he were someone else's problem. If (for some reason) you wish to contact him, he can be reached through his representative with the link below.
+			<br><a class="head-link" href="links.html" style="text-decoration:none">Projects</a>
+			<br><a class="head-link" href="links.html" style="text-decoration:none">Contact his representative</a>
+			</p>
+			<p class=hidden>
+				<br>If you have discovered this sentence, Lomin has either made a mistake or trusts you. Neither possibility is especially comforting. You might now know something you were never supposed to know, although we're not entirely sure what that something is. Or why it was hidden.<br>A hint: ControlF.
+			</p>
+			<div id="secret-content" hidden="until-found" class=hidden2>
+			David I. builds things that exist. Walt writes about things that probably should.The relationship between the two has been described as complicated, mostly because no one has clarified what that means.
+			</div>
+		
+	</body>
+</html>
